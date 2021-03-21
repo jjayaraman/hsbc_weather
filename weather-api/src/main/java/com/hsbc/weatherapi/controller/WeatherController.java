@@ -23,13 +23,14 @@ public class WeatherController {
     @Autowired
     private WeatherService weatherService;
 
+    private long counter = 1;
 
     @GetMapping(path = "/weather", produces = APPLICATION_JSON_VALUE)
     public ResponseEntity<String> getWeather() {
 
         try {
             HttpResponse response = weatherService.getWeather();
-            log.info("weather api response status code : " + response.statusCode());
+            log.info("Weather api called {} time(s), and the response status code is {} ", counter++, response.statusCode());
             return ResponseEntity.status(response.statusCode()).body(response.body().toString());
 
         } catch (IOException e) {

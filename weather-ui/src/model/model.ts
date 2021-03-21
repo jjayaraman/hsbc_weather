@@ -1,4 +1,4 @@
-export interface Data {
+export interface Cities {
     cod: string;
     calctime: number;
     cnt: number;
