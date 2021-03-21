@@ -20,7 +20,8 @@ Application Setup:-
 2) weather-api
 
   - Import the project into IDE as a maven project
-  - 
+  - Run the command **mvn clean install**
+  - Run command  **./mvnw spring-boot:run** to start the application
 
 2) weather-ui
 
