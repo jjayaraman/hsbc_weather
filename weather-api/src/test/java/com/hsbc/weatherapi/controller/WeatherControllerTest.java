@@ -10,6 +10,11 @@ import org.springframework.http.ResponseEntity;
 import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
+/**
+ * REST controller integration testing
+ *
+ * @author Jayakumar Jayraman
+ */
 class WeatherControllerTest {
 
     @Autowired

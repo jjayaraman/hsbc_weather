@@ -12,6 +12,11 @@ import java.net.http.HttpResponse;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
+/**
+ * Service integration testing
+ *
+ * @author Jayakumar Jayraman
+ */
 @SpringBootTest
 class WeatherServiceTest {
 
