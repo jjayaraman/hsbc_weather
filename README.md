@@ -50,6 +50,6 @@ Application Setup:-
 
 <img width="1833" alt="Screenshot 2021-03-21 at 17 13 13" src="https://user-images.githubusercontent.com/3359193/111914292-4d6b2a00-8a69-11eb-96c8-1da4045eb61c.png">
 
-<img width="2048" alt="Screenshot 2021-03-21 at 17 18 50" src="https://user-images.githubusercontent.com/3359193/111914370-8acfb780-8a69-11eb-88bf-6fc7237d1a7d.png">
+<img width="1742" alt="Screenshot 2021-03-21 at 17 21 05" src="https://user-images.githubusercontent.com/3359193/111914442-dc784200-8a69-11eb-9275-02c876eff341.png">
 
 
