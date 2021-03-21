@@ -22,11 +22,18 @@ Application Setup:-
   - Import the project into IDE as a maven project
   - Run the command **mvn clean install**
   - Run command  **./mvnw spring-boot:run** to start the application
-
+  - The API server runs on URI http://localhost:8080/api/weather
+  - The CORS is configured and the UI server whitelisted for http://localhost:3000
   - Swagger - http://localhost:8080/swagger-ui/index.html?configUrl=/weather/swagger-config
 
 2) weather-ui
 
+  - Open the folder weather-ui in VSCode
+  - In terminal run the below commands 
+  - **npm install**
+  - **npm start**
+  - The UI server runs on http://localhost:3000
+  - Test cases can be run using command **npm test**
  
 
 
