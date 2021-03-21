@@ -6,6 +6,11 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
+/**
+ * Utility to make http calls using Java11 feature
+ *
+ * @author Jayakumar Jayaraman
+ */
 public class HttpUtil {
 
 

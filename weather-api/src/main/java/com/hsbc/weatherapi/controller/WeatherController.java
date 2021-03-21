@@ -14,6 +14,11 @@ import java.net.http.HttpResponse;
 
 import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 
+/**
+ * REST controller to expose API
+ *
+ * @author Jayakumar Jayaraman
+ */
 @RequestMapping(path = "/api")
 @RestController
 public class WeatherController {
