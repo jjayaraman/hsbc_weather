@@ -23,6 +23,8 @@ Application Setup:-
   - Run the command **mvn clean install**
   - Run command  **./mvnw spring-boot:run** to start the application
 
+  - Swagger - http://localhost:8080/swagger-ui/index.html?configUrl=/weather/swagger-config
+
 2) weather-ui
 
  
