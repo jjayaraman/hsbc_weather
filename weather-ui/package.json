@@ -44,7 +44,6 @@
   "devDependencies": {
     "@types/jest": "^26.0.21",
     "msw": "^0.27.1",
-    "ts-jest": "^26.5.4",
-    "whatwg-fetch": "^3.6.2"
+    "ts-jest": "^26.5.4"
   }
 }

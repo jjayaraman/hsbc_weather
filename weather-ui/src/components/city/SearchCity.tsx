@@ -79,12 +79,12 @@ const SearchCity = () => {
                             </Col>
 
                             <Col md={3}>
-                                <input id="name" type="text" value={name} onChange={handleOnChange} style={{ 'width': '100%' }} placeholder="Enter a city name to search"></input>
+                                <input id="name" data-testid="name" type="text" value={name} onChange={handleOnChange} style={{ 'width': '100%' }} placeholder="Enter a city name to search"></input>
                             </Col>
 
                             <Col md={3}>
-                                <Button type="button" variant="warning" onClick={clear} className="mr-1">Clear</Button>
-                                <Button type="button" onClick={showAll} className="mr-1">Show All</Button>
+                                <Button data-testid="clear" type="button" variant="warning" onClick={clear} className="mr-1">Clear</Button>
+                                <Button data-testid="showAll" type="button" onClick={showAll} className="mr-1">Show All</Button>
                             </Col>
                         </Row>
 
